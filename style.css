@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+/* body {
+	display: flex;
+	width: 90%;
+	height: 10vh;
+	margin: auto;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+} */
+.homepage{
+    height: 100vh;
+    
+
+}
+.navbar{
+    align-items: center;
+    height: 10vh;   
+    display: flex;
+    justify-content: space-around;
+ /* padding-right:4vh ; */
+ background-color: #A499CC;
+    
+
+
+}
+.logo{
+    padding-left: 8vh;
+    flex: 2;
+    color:#524580;
+}
+.navlinks{
+    list-style: none;
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content:space-between ;
+    padding-right: 8vh;
+
+}
+.nav-link{
+     text-decoration: none;
+     color:black;
+     font-weight:700;
+}
+.main{
+    height: 90vh;
+    
+
+}
+.bgimage{
+    background-image:url("pic.jpg");
+    opacity: 50%;
+}
+.secondpage{
+    height: 100vh;
+    background-color: gray;
+
+}
+.footer{
+    height: 30vh;
+
+}
+.colors{
+    display: flex;
+    align-items: center;
+}
+.color1{
+    flex: 1;
+    height: 3vh;
+    background-color: #676080;
+}
+.color2{
+    flex: 1;
+    height: 3vh;
+    background-color: #7650FF;
+}
+.color3{
+    flex: 1;
+    height: 3vh;
+    background-color: #CDBFFF;
+}
+.color4{
+    flex: 1;
+    height: 3vh;
+    background-color: #524580;
+}
+.color5{
+    flex: 1;
+    height: 3vh;
+    background-color: #A499CC;
+}
